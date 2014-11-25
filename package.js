@@ -1,7 +1,7 @@
 Package.describe({
   name: 'mfq:errors',
   summary: 'A pattern to display errors to users',
-  version: '1.0.3',
+  version: '1.0.4',
   git: 'https://github.com/MFQ/meteor-errors.git'
 });
 
