@@ -1,12 +1,12 @@
-<template name="_errors">
+<template name="error_list">
   <div class="errors">
     {{#each errors}}
-      {{> meteorError}}
+      {{> error_detail}}
     {{/each}}
   </div>
 </template>
 
-<template name="_error">
+<template name="error_detail">
   <div class="alert alert-danger" role="alert">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
     {{message}}
