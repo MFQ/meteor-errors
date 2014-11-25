@@ -1,4 +1,4 @@
-<template name="meteorErrors">
+<template name="_errors">
   <div class="errors">
     {{#each errors}}
       {{> meteorError}}
@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<template name="meteorError">
+<template name="_error">
   <div class="alert alert-danger" role="alert">
     <button type="button" class="close" data-dismiss="alert">&times;</button>
     {{message}}
