@@ -9,7 +9,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
   // api.addFiles('mfq:errors.js');
   api.use(['minimongo', 'mongo-livedata', 'templating'], 'client');
-  api.addFiles(['errors_list.js', 'errors_list.html', 'mfq:errors.js'], 'client');
+  api.addFiles(['mfq:errors.js' , 'errors_list.html' , 'errors_list.js'], 'client');
   if (api.export)
     api.export('Errors');
 
